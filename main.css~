@@ -1,0 +1,530 @@
+*,html,body
+{
+	padding-bottom: 20px;
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	padding-bottom: 20px;
+	background: url('images/bg.png') repeat;
+}
+#main 
+{
+	 position: relative;
+    width: 100%;
+    height: 145px;
+}
+#content {
+    margin: 0px auto;
+    width: 960px;
+    padding: 0px;
+}
+#logo_left
+{
+    float: left;
+    width: 230px;
+    height: 152px;
+    background: url('images/better-beer.png') no-repeat;
+    opacity: 0.65;
+}
+#logo_left:hover
+{
+	opacity: 1;
+}
+#logo_middle
+{
+position: absolute;
+top: 8px;
+left: 390px;
+width: 141px;
+height: 144px;
+background: url('images/logo.png') no-repeat;
+}
+#logo_middle:hover
+{
+	opacity:0.70;
+}
+#logo_right
+{
+float: right;
+width: 274px;
+height: 154px;
+background: url('images/menu-items.png') no-repeat;
+opacity: 0.65;
+}
+#logo_right:hover
+{
+	opacity:1;
+}
+#navi
+{
+	
+    width: 100%;
+    height: 28px;
+    background-color: #fafaf6;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top:12px;
+    box-shadow: 0px 1px 2px #cccccc;
+    letter-spacing: 1px;
+    display: block;
+}
+#navi li a {
+    padding: 5px 15px;
+    color: #64645D;
+    font-family: 'droid_sansbold';
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#navi li a:hover
+{
+	color:#e37a30;
+	background-color: #EFEFE9;
+}
+#navi li
+{
+	
+	display:inline;
+	padding-left: 43px;
+    
+}
+
+#navi ul
+{
+	position: relative;
+	top: -2px;
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+}
+
+#inner_content img
+{
+    float: left;
+    border: 15px solid #FAFAF6;
+    box-shadow: 0px 1px 1px #CCC;
+    transition:transform 0.5s;
+}
+
+#inner_content img:hover
+{
+	transform:scale(1.1) rotate(-2deg);
+	
+}
+#listing {
+    float: right;
+    width: 425px;
+    margin-top: 15px;
+}
+#listing ul
+{
+
+	list-style: none;
+	
+}
+#listing ul li 
+{ 
+	 width: 316px;
+    background: url('images/divider.png') no-repeat left bottom;
+	 font-family: 'League Gothic';    
+    font-size: 35px;
+    color: #787871;
+ 	 text-shadow: 1px 1px 1px #FFF;
+    position: relative;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+}
+#listing em {
+    text-transform: lowercase;
+ 	 font-family: 'marketing_scriptregular';
+ 	 font-size: 33px;
+    letter-spacing: 0px;
+    
+    
+}
+
+#listing span {
+    position: absolute;
+    top: -21px;
+    right: -85px;
+    font-size: 75px; 
+    font-family: 'League Gothic';
+    color: #DC692E;
+}
+#inner_content #buttons
+{
+	 width: 180px;
+    height: 50px;
+    padding: 20px 0px 0px;
+    text-align: center;
+    float: left;
+    background-color: rgba(208,208,198,0.5);
+    margin: 10px 0px 0px 28px;
+	 font-family: 'League Gothic';    
+    font-size: 18px;
+    text-decoration: none;
+    border-radius:10px 0px 10px 0px;
+    border:0.5px solid #d4d4cd;
+    letter-spacing: 1px;
+    border: 1px solid rgb(198, 198, 188);
+    color: #787871;
+    text-shadow: 1px 1px 1px #FFF;
+}
+#buttons span
+{
+	font-family: 'marketing_scriptregular';
+ 	 font-size: 24px;
+    
+}
+	
+#inner_content #buttons:hover
+{
+	background-color: #c2c2b7;
+	border-color: #d4d4ca;
+	color:#e37a30;
+}
+
+#bottom_content
+{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+#bottom_content section 
+{
+    position: relative;	
+    float: left;
+    width: 290px;
+    height: 230px;
+    display: inline;
+    background: none repeat scroll #FAFAF6;
+    border: 5px solid #E9E9E4;
+    margin-right: 30px;
+    padding-bottom:10px;
+}
+#latest_news
+{
+	position: absolute;
+}
+#latest_news header
+{
+		 
+	    display: block;
+}
+#news
+{
+    font-size: 24px;
+    font-family: 'marketing_scriptregular';
+    color: #717165;
+    margin-left: 10px;
+    padding: 5px 0px 0px;
+    border-bottom: 1px solid #ECECE9;
+    width: 270px;
+    font-weight: inherit;
+    text-align: left;
+}
+#latest_news #new_data h1
+{
+font-size: 100%;
+font-weight: normal;
+}
+
+#news_data
+{
+	position:relative;
+	display: block;
+}
+
+#latest_news #news_data {
+    margin-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    width: 285px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: width 0.4s;
+}
+#latest_news #news_data:hover 
+{
+	width:300px;
+	background-color: #DEDED4;
+	border: 5px; 
+
+
+}
+#news_data h1 a {
+    font:12px 'droid_sansbold';
+    color: #717165;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#latest_news p {
+    font: 9px 'droid_sansbold';
+    color: #98988C;
+    text-transform: uppercase;
+}
+#latest_news p #via {
+    text-transform: none;
+}
+#latest_news p a {
+    color: #98988C;
+    text-decoration: underline;
+}
+#latest_news p a:hover 
+{
+    text-decoration: none;
+}
+
+
+#bottom_content #middle_news {
+    float: left;
+    width: 290px;
+    height: 230px;
+    display: inline;
+    background: none repeat scroll 0% 0% #FAFAF6;
+    border: 5px solid #E9E9E4;
+    margin-right: 30px;
+}
+#middle_news
+{
+	text-align: center;
+}
+
+#middle_news #pic
+{
+    margin-top: 15px;
+    width: 87px;
+    
+}
+#middle_news p {
+    padding: 10px;
+    font-size: 13px ;
+    font-family: 'droid_sansregular';
+    font-weight: lighter;
+    color: #6A6A5D;
+    
+}
+#bottom_content #newsletter
+{
+	display: inline;
+	margin-right: 0px;
+	
+}
+
+#sign-up #set1,#set2,#set3 {
+    margin: 10px 0px 10px 10px;
+	position:relative;
+}
+#sign-up label {
+    display: block;
+    font: 14px/1.5em 'droid_sansbold';
+    color: #DC692E;
+}
+#sign-up #set1 input, #sign-up #set2 input {
+    width: 250px;
+    padding: 8px;
+    font-size: 12px;
+    color: #89897E;
+    border: 1px solid #E5E5DD;
+    background: none repeat scroll 0% 0% #F4F4ED;
+    border-radius: 5px;
+}
+#sign-up #set1 input:hover  , #sign-up #set2 input:hover 
+{
+	border: 0.1px solid #e37a30; 
+	box-shadow: -0px -0px 1px 1px #e37a30;
+}
+#sign-up #set3 input
+{
+	position:relative;
+    float: right;
+    margin-right: 13px;
+    padding: 6px 15px ;
+    font-size:  12px ;
+    font-family: 'droid_sansbold';
+    text-transform: uppercase;
+    color: #787871;
+    text-shadow: 2px 2px 2px #BEBEB6;
+    border: 0.1px solid #CFCFC6;
+    background-color: #CFCFC6;
+    border-radius: 8px;
+    cursor: pointer;
+  
+}
+#sign-up #set3 input:hover
+{
+	box-shadow:0.5px 0.5px 1.5px 1.5px #dededc;
+}
+
+#footer_content
+{
+width: 940px;
+float: left;
+margin-top: 20px;
+padding: 10px;
+background:repeat scroll rgba(149, 149, 137, 0.15);
+border: 1px solid #D2D2C4;	
+}
+
+#footer_left
+{
+    float: left;
+    width: 300px;
+    height: 150px;
+    background: url('images/history.png') no-repeat left top;
+    opacity: 0.85;
+    padding: 15px 0px 0px 225px;
+    color: #6A6A5D;
+    text-shadow: 1px 1px 1px #FFF;
+    clear: none;
+
+}
+
+#footer_left header h1
+{
+font: 12px 'droid_sansbold';
+text-transform: uppercase;	
+}
+#footer_left p  
+{
+    font: 12px 'droid_sansregular';
+}
+
+#footer_left p a 
+{
+    text-decoration: underline;
+    color: #6A6A5D;
+}
+#footer_left p a:hover 
+{
+    text-decoration: none;
+}
+
+#footer_right
+{
+    float: right;
+    width: 325px;
+    margin-top: 15px;
+    position: relative;
+	
+}
+#footer_navi ul 
+{
+	display: block;
+	list-style: none;
+}
+
+#footer_navi ul li 
+{
+    display: inline;
+    border-right: 1px solid #9F9F8F;
+    padding: 0px 2px 0px 4px;
+    font:11px 'droid_sansbold';
+    text-transform: uppercase;
+    text-align: right;
+}
+#footer_navi ul #list
+{
+	 border-right: 0px;	
+}
+#footer_navi a
+{
+	text-decoration: none;
+	color: #6A6A5D;
+}
+#footer_navi a:hover
+{
+	text-decoration:underline;
+}
+
+#footer_msg
+{
+	left: 0px;
+	top: 26px;
+    opacity: 0.15;
+    position: relative;
+    transition: opacity 0.3s;
+}
+
+#footer_msg:hover
+{
+	opacity: 0.65;
+}
+#footer_bottle
+{
+	
+    height: 67px;
+    width: 20px;
+}
+#footer_msg p
+{
+    padding: 20px 0px 0px 45px;
+    font: 10px/16px "droid_sansregular";
+    margin-top: -80px;
+    color: #000;
+	
+}
+#footer_msg a
+{
+	text-decoration: none;
+   color: #6A6A5D;
+}
+#footer_msg a:hover
+{
+	text-decoration: underline;
+}
+
+
+@font-face {
+    font-family: 'droid_sansbold';
+    src: url('fonts/droidsans-bold-webfont.eot');
+    src: url('fonts/droidsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/droidsans-bold-webfont.woff') format('woff'),
+         url('fonts/droidsans-bold-webfont.ttf') format('truetype'),
+         url('fonts/droidsans-bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'marketing_scriptregular';
+    src: url('fonts/marketingscript-webfont.eot');
+    src: url('fonts/marketingscript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/marketingscript-webfont.woff') format('woff'),
+         url('fonts/marketingscript-webfont.ttf') format('truetype'),
+         url('fonts/marketingscript-webfont.svg#marketing_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('fonts/droid-sans.regular-webfont.eot');
+    src: url('fonts/droid-sans.regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/droid-sans.regular-webfont.woff') format('woff'),
+         url('fonts/droid-sans.regular-webfont.ttf') format('truetype'),
+         url('fonts/droid-sans.regular-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
